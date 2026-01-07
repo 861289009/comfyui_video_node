@@ -18,6 +18,10 @@
 - **color_hex**: 过渡颜色的十六进制代码（默认 `#000000`）。
 - **curve**: 缓动曲线类型 (`linear`, `ease_in`, `ease_out`)。
 
+## 注意
+输入需要使用Get Video Components官方节点将video转为image batch。
+输出需要使用Create Video官方节点将image转为video。
+
 ## 安装方法
 
 1.  将本仓库克隆到你的 ComfyUI `custom_nodes` 目录下：
